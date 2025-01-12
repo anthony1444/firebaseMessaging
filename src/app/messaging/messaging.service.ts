@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { AngularFireMessaging } from '@angular/fire/compat/messaging';
 import { deleteToken, getToken, Messaging, onMessage } from '@angular/fire/messaging';
 import { BehaviorSubject, Observable, tap } from 'rxjs';
 
