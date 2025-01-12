@@ -1,0 +1,37 @@
+{
+    "routes": [
+        {
+            "route": "/favicon.ico",
+            "headers": {
+                "Cache-Control": "no-cache"
+            }
+        },
+        {
+            "route": "/manifest.json",
+            "serve": "/manifest.json"
+        },
+        {
+            "route": "/firebase-messaging-sw.js",
+            "serve": "/firebase-messaging-sw.js"
+        },
+        {
+            "route": "src/firebase-messaging-sw.js",
+            "serve": "src/firebase-messaging-sw.js"
+        }
+    ],
+    "navigationFallback": {
+        "rewrite": "index.html",
+        "exclude": [
+            "src/firebase-messaging-sw.js",
+            "/src/firebase-messaging-sw.js",
+            "/firebase-messaging-sw.js",
+            "firebase-messaging-sw.js",
+            "/images/*.{png,jpg, gif, ico}",
+            "/*.{css.scss,js}"
+        ]
+    },
+    "mimeTypes": {
+        ".js": "application/javascript",
+        ".json": "application/json"
+    }
+}

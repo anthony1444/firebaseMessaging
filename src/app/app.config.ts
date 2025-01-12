@@ -8,12 +8,13 @@ import { routes } from './app.routes';
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: "TU_API_KEY",
-    authDomain: "TU_AUTH_DOMAIN",
-    projectId: "TU_PROJECT_ID",
-    storageBucket: "TU_STORAGE_BUCKET",
-    messagingSenderId: "TU_MESSAGING_SENDER_ID",
-    appId: "TU_APP_ID",
+    apiKey: "AIzaSyCIVYLJIapxu5b7QHU1MXDjrRn47ssk-H0",
+    authDomain: "delivery-fffde.firebaseapp.com",
+    projectId: "delivery-fffde",
+    storageBucket: "delivery-fffde.firebasestorage.app",
+    messagingSenderId: "244577228746",
+    appId: "1:244577228746:web:b828118e21a2df1b596133",
+    measurementId: "G-2QLPE6BHRE"
   },
 };
 
